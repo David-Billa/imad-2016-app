@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>
+            Article three | David Billa
+        </title>
+        <meta name="viewport" content="width-device-width,initial-scale=1"/>
+    </head>
+    <body>
+        <div>
+            <a href="/">Home</a>
+        </div>
+        <hr>
+        <h3>
+        Article Three    
+        </h3>
+        <div>
+            12 oct 2016
+        </div>
+        <div>
+        <p>
+            This is the content of article three.    
+         </p>
+            
+        </div>
+        </body>
+</html>
