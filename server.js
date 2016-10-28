@@ -14,7 +14,7 @@ app.get('/counter',function(req,res){
     res.send(counter.toString());
 });
 
-var pool=require('pg').pool;
+/*var pool=require('pg').pool;*/
 var config = {
     user: 'david-billa',
     database: 'david-billa',
@@ -25,7 +25,7 @@ var config = {
 var pool = new Pool(config);
 
     
-/*app.get('/test-db',function(req,res){
+app.get('/test-db',function(req,res){
     //make request to database 
     //return a response with the results
     pool.query('SELECT * FROM test',function(err,result){
@@ -37,7 +37,7 @@ var pool = new Pool(config);
         }
         
     });
-});*/
+});
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
