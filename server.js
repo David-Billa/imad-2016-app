@@ -13,13 +13,14 @@ app.get('/counter',function(req,res){
     counter=counter+1;
     res.send(counter.toString());
 });
+
 var pool=require('pg').pool;
 var config = {
     user: 'david-billa',
     database: 'david-billa',
     host: 'db.imad.hasura-app.io',
     port: '5432',
-    password:process.env.DB_PASSWORD,
+    password:process.env.DB_PASSWORD
     };
 var pool = new Pool(config);
 
