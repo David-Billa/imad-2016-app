@@ -13,7 +13,7 @@ app.get('/counter',function(req,res){
     counter=counter+1;
     res.send(counter.toString());
 });
-/*var pool=require('pg').pool;
+var pool=require('pg').pool;
 var config = {
     user: 'david-billa',
     database: 'david-billa',
@@ -36,7 +36,7 @@ app.get('/test-db',function(req,res){
         }
         
     });
-});*/
+});
 app.get('/article-One',function(req,res){
    res.sendFile(path.join(__dirname, 'ui', 'article-one.html')); 
 });
