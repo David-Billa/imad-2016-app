@@ -39,7 +39,7 @@ app.get('/test-db',function(req,res){
     });
 });
 
-app.get('/professional.html', function(req,res) {
+app.get('/professional', function(req,res) {
     res.sendfile(path.join(__dirname, 'ui', 'professional.html'));
 });
 
