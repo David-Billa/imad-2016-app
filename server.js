@@ -39,8 +39,8 @@ app.get('/test-db',function(req,res){
     });
 });
 
-app.get('/professional.html',function(req,res){
-    res.sendfile(path.join(__dirname,'ui','professional.html'));
+app.get('/professional.html', function(req,res) {
+    res.sendfile(path.join(__dirname, 'ui', 'professional.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
