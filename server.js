@@ -48,7 +48,7 @@ app.get('/family',function(req,res){
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
-app.get('/GOALS',function(req,res){
+app.get('/GOALS1',function(req,res){
     res.sendfile(path.join(__dirname,'ui','goals.html'));
 });
 app.get('/ui/madi.png', function (req, res) {
