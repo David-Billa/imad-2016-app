@@ -42,7 +42,7 @@ var pool = new Pool(config);*/
 app.get('/professional', function(req,res) {
     res.sendfile(path.join(__dirname, 'ui', 'professional.html'));
 });
-app.get('/family',function(req,res){
+app.get('/tend',function(req,res){
     res.sendfile(path.join(__dirname,'ui','family.html'))
 })
 app.get('/ui/style.css', function (req, res) {
